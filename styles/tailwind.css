@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+/* * {
   color: white;
-}
+} */
 
 .bg-coin {
   background: linear-gradient(
