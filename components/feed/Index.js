@@ -22,8 +22,6 @@ const Feed = () => {
     setPosts(data.data);
   }, [data]);
 
-  console.log(data);
-
   return (
     <div className="flex flex-col space-y-3">
       <CreatePost />
