@@ -6,7 +6,8 @@ const style = {
   postedBy: "flex items-center space-x-1",
 };
 
-const info = ({ author }) => {
+const info = ({ author, date }) => {
+  console.log(date);
   return (
     <div className={style.wrapper}>
       <div className={style.profilePicContainer}>
@@ -20,7 +21,7 @@ const info = ({ author }) => {
       <div className={style.postedBy}>
         <span>Posted by {author}</span>
         <div>·</div>
-        <span>Aug 24</span>
+        <span>{date}</span>
       </div>
     </div>
   );
